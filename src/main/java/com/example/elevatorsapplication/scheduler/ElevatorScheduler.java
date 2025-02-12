@@ -15,7 +15,7 @@ public class ElevatorScheduler {
     }
 
     // Simulate elevator movements every second
-    @Scheduled(fixedRate = 2000)
+    @Scheduled(fixedRate = 1000)
     public void simulateElevatorMovements() {
         elevatorService.moveElevators();
     }
